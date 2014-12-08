@@ -2,8 +2,11 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<meta description="Debe ser de 160 caracteres y ser diferente para cada página." />
+		<meta name="description" content="Debe ser de 160 caracteres y ser diferente para cada página." />
 		<title>Curso de HTML</title>
+		<!--El orden es importante-->
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="estilos.css">
 	</head>
 	<body>
 		<header>
@@ -39,10 +42,10 @@
 					<span class="fecha_item">
 						Hace <strong>5 min</strong>
 					</span>
-					<a href="#" class="comentarios_item"></a>
-					<a href="#" class="fav_item"></a>
 				</div>
 				<div class="votacion">
+					<a href="#" class="comentarios_item"></a>
+					<a href="#" class="fav_item"></a>
 					<a href="#" class="up"></a>
 					<a href="#" class="down"></a>
 				</div>
